@@ -14,10 +14,10 @@ const profile = {
 
 
 // req e res
-routes.get('/', (req, res) =>   res.render(pages + "/index")) // dirname = a propria pasta. esse cara ta pegando a pagina src para mostrar quando rodar o serve)
-routes.get('/job', (req, res) =>   res.render(pages + "/job")) // dirname = a propria pasta. esse cara ta pegando a pagina src para mostrar quando rodar o serve)
-routes.get('/job/edit', (req, res) =>   res.render(pages + "/job-edit")) // dirname = a propria pasta. esse cara ta pegando a pagina src para mostrar quando rodar o serve)
-routes.get('/profile', (req, res) =>   res.render(pages + "/profile", {profile})) // dirname = a propria pasta. esse cara ta pegando a pagina src para mostrar quando rodar o serve)
+routes.get('/', (req, res) =>   res.render(pages + "index")) // dirname = a propria pasta. esse cara ta pegando a pagina src para mostrar quando rodar o serve)
+routes.get('/job', (req, res) =>   res.render(pages + "job")) // dirname = a propria pasta. esse cara ta pegando a pagina src para mostrar quando rodar o serve)
+routes.get('/job/edit', (req, res) =>   res.render(pages + "job-edit")) // dirname = a propria pasta. esse cara ta pegando a pagina src para mostrar quando rodar o serve)
+routes.get('/profile', (req, res) =>   res.render(pages + "profile", {profile})) // dirname = a propria pasta. esse cara ta pegando a pagina src para mostrar quando rodar o serve)
 
 
 module.exports = routes;
